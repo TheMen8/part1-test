@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333333;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu styles */
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effects */
+.menu li a:hover {
+    background-color: #00ffff;
+    color: #fff;
+}
+
+/* Optional: Adding responsive behavior */
+@media (max-width: 768px) {
+    .nav-con {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        width: 100%;
+        display: block;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
+.maincontent{
+    background-color: #9c9c9c;
+
+}
+.maincontent-con{
+    display: flex;
+
+}
+
+.maincontent-info{
+    width: 100%;
+    padding: 2rem;
+}
+
+.maincontent-info h3{
+    font-size: 2rem;
+
+}
+
+.maincontent-info p{
+    margin: 1rem 0;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: gold;
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 20px;
+
+} 
+img{
+    width: 50%;
+    padding: 2rem;
+    border-radius: 20px;
+
+}
+
+.content-com{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.content-title{
+    margin: 2rem 0;
+}
+
+.content-item img{
+    width: 100%;
+}
+
+.content-item h4{
+    margin-top: 1rem;
+}
+
+.content-item p{
+    margin: 1rem 0;
+}
+
+.content-item a{
+    display: inline-block;
+    color: #f4f4f4;
+    background-color: gold;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
